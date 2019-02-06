@@ -10,6 +10,15 @@ nav a:hover{
     font-size: 3em;
     transition: 0.9s;
 }
+#index{
+    color:purple;
+}
+#contact{
+    color:purple;
+}
+#about{
+    color:purple;
+}
 nav a{
     padding: 15px;
     padding-bottom: 4px;
@@ -41,7 +50,6 @@ h1{
     font-family: "Pacifico",cursive;
     font-size: 4em;
     margin-bottom: 0px;
-    color:green;
 }
 #table-header{
     background-color: #351a00;
