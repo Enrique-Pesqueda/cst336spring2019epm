@@ -1,22 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <link href = "css/styles.css" rel = "stylesheet" type = text/css>
         <meta charset = "utf-8" />
         <title> HackerNews</title>
     </head>
+    
     <body>
-        <div class = hero-image>
-        <br/>
-        <header> 
-            <nav>
-                <hr/>
-                <a href = "index.html"> HackerNews </a> 
-                <a href = "howTo.html"> How To </a>
-                <a href = "reasons.html"> Reasons to Hack </a>
-                <a href = "protect.html"> Protecting Yourself </a>
-            </nav>    
-        </header>
+        <div class = banner>
+            <br/>
+            <header> 
+                <nav>
+                    <!--<hr/>-->
+                    <a href = "index.html"> <code>&lt Hacking ></code></a> 
+                    <a href = "howTo.html"> <code> &lt Ethical Hacking ></code></a>
+                    <a href = "reasons.html"><code> &lt White Hat ></code></a>
+                    <a id = "protect" href = "protect.html"><code> &lt Black Hat ></code> </a>
+                    <div id = "sign-in-button">
+                        <button type="button" onclick="alert('Sign in Failure')" >Sign In</button>
+                    </div>
+                </nav>    
+            </header>
         </div>
+        
+        <br/>
+        <main>
+            <div id = "center">
+                <div id = "sidePic">
+                    <img id = "blackHat" src = "img/blackHat.jpeg" alt = "Black Hat Hacker"/>
+                </div>
+                <div class = "def">
+                    <h1>What does Black Hat Hacker mean?</h1>                
+                    <h5>
+                        A black hat hacker is a person who attempts to find computer security <br/>
+                        vulnerabilities and exploit them for personal financial gain or other malicious <br/>
+                        reasons. This differs from white hat hackers, which are security specialists <br/>
+                        employed to use hacking methods to find security flaws that black hat hackers may exploit.
+                        <br/><br/>
+                        Black hat hackers can inflict major damage on both individual computer users and <br/>
+                        large organizations by stealing personal financial information, compromising the <br/>
+                        security of major systems, or shutting down or altering the function of websites and networks.
+                    </h5>
+                </div>
+            </div>
+            <footer>
+                <hr>
+                CST[336] 2019&copy; Mosqueda<br/>
+                <strong> Disclaimer: </strong> The information in this webpage is ficticios.
+                <br/>
+                It is used for academic purposes only
+                <br/>
+                <div class = "dropdown">
+                    <a href="https://www.techopedia.com/definition/26342/black-hat-hacker">
+                        <img id = "dropdown" src="img/questionMark.png" alt="Question Mark" style="width:42px;height:42px;border:0">
+                    </a>
+                    <div class="dropdown-content">
+                        <p>Work Cited</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        
     </body>
 </html>

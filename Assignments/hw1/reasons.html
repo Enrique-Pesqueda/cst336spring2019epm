@@ -1,22 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <link href = "css/styles.css" rel = "stylesheet" type = text/css>
         <meta charset = "utf-8" />
         <title> HackerNews</title>
     </head>
+    
     <body>
-        <div class = hero-image>
-        <br/>
-        <header> 
-            <nav>
-                <hr/>
-                <a href = "index.html"> HackerNews </a> 
-                <a href = "howTo.html"> How To </a>
-                <a href = "reasons.html"> Reasons to Hack </a>
-                <a href = "protect.html"> Protecting Yourself </a>
-            </nav>    
-        </header>
+        <div class = banner>
+            <br/>
+            <header> 
+                <nav>
+                    <!--<hr/>-->
+                    <a href = "index.html"> <code> &lt Hacking ></code></a> 
+                    <a href = "howTo.html"> <code> &lt Ethical Hacking ></code></a>
+                    <a id = "reasons" href = "reasons.html"> <code> &lt White Hat ></code></a>
+                    <a href = "protect.html"> <code> &lt Black Hat ></code></a>
+                    <div id = "sign-in-button">
+                        <button type="button" onclick="alert('Sign in Failure')" >Sign In</button>
+                    </div>
+                </nav>    
+            </header>
         </div>
+        
+        <br/>
+        <main>
+            <div id = "center">
+                <div id = "sidePic">
+                    <img id = "whiteHat" src = "img/whiteHat.png" alt = "White Hat Hacker"/>
+                </div>
+                <div class = "def">
+                    <h1>What does White Hat Hacker mean?</h1>                
+                    <h5>A white hat hacker is a computer security specialist who breaks into protected <br/>
+                    systems and networks to test and asses their security. White hat hackers use their  <br/>
+                    skills to improve security by exposing vulnerabilities before malicious hackers  <br/>
+                    (known as black hat hackers) can detect and exploit them. Although the methods used are  <br/>
+                    similar, if not identical, to those employed by malicious hackers, white hat hackers have  <br/>
+                    permission to employ them against the organization that has hired them.</h5>
+                </div>
+            </div>
+            <footer>
+                <hr>
+                CST[336] 2019&copy; Mosqueda<br/>
+                <strong> Disclaimer: </strong> The information in this webpage is ficticios.
+                <br/>
+                It is used for academic purposes only
+                <br/>
+                <div class = "dropdown">
+                    <a href="https://www.techopedia.com/definition/10349/white-hat-hacker">
+                        <img id = "dropdown" src="img/questionMark.png" alt="Question Mark" style="width:42px;height:42px;border:0">
+                    </a>
+                    <div class="dropdown-content">
+                        <p>Work Cited</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
     </body>
 </html>
