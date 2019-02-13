@@ -16,3 +16,7 @@ body{
     margin:0 auto;
     border-radius:20px;
 }
+#scoreBoard{
+    font-size: 2em;    
+    /*padding-top: 140px;*/
+}
