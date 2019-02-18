@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slot Machine</title>
+    </head>
+    <style>
+    body{
+         text-align: center;
+    }
+    .checker{
+        background-color: #59E83F;
+        width:100px;
+        height:50px;
+        color:white;
+        font-size:18px;
+        border-radius:10px;
+    }
+    h1{
+        width :100%;
+        height:200px;
+        background-color: #CFCFCE;
+        
+    }
+    .block{
+        display:inline-flex;
+    }
+    
+
+    </style>
+    <body>
+        
+        <h1><br/><br/>Slot Machine</h1>
+        <div>
+            <button class="checker" type="button">Play!</button>
+        </div>
+        <div class = "block">
+            <div id = "image1"><img src = "img/seven.png"></div>
+            <div id = "image2"><img src = "img/seven.png"></div>
+            <div id = "image3"><img src = "img/seven.png"></div>
+        </div>
+        
+        <div class = "congrats"></div>
+        
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        var purse = 0;
+        var audio = new Audio("audio/jackpot.m4a");
+        let imageArray = ["cherry", "grapes", "seven"];
+           
+        $("button.checker").on("click", function(e) {
+            let randomIndex = Math.floor(Math.random()*3);
+            let randomImage = imageArray[randomIndex];
+            $("#image1").html("<img src = 'img/" + randomImage+".png' /> ");
+                
+            let randomIndex2 = Math.floor(Math.random()*3);
+            let randomImage2 = imageArray[randomIndex2];
+            $("#image2").html("<img src = 'img/" + randomImage2+".png' /> ");
+                
+            let randomIndex3 = Math.floor(Math.random()*3);
+            let randomImage3 = imageArray[randomIndex3];
+            $("#image3").html("<img src = 'img/" + randomImage3+".png' /> ");
+            
+            console.log(randomImage + " " + randomImage2 + " " + randomImage3);
+            
+            if(randomImage == randomImage2 && randomImage2 == randomImage3){
+               audio.play();
+               if(randomImage == "cherry"){
+                    purse+=100;
+                    $(".congrats").html("<bold>JACKPOT!!</bold><br/>You Won $100<br/>Total Winnings " + purse).css("font-size","35px");
+               }
+               else if(randomImage == "grapes"){
+                   purse+=300;
+                   $(".congrats").html("<bold>JACKPOT!!</bold><br/>You Won $300<br/>Total Winnings " + purse).css("font-size","35px");
+               }
+               else{
+                   purse+=500;
+                   $(".congrats").html("<bold>JACKPOT!!</bold><br/>You Won $500<br/>Total Winnings " + purse).css("font-size","35px");
+               }
+            }
+            else{
+                $(".congrats").html("Try Again!<br/>Total Winnings " + purse).css("font-size","35px");
+            }
+        });   
+    </script>
+    
+    </body>
+    
+</html>

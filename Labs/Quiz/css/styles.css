@@ -1,0 +1,25 @@
+header{
+    background-color: lightblue;
+    
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightBlue;
+}
+
+.flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 40px;
+    font-size: 20px;
+    width:55%;
+}
+
+#results{
+    width:20%;
+    position: sticky;
+    padding: 50px;
+    font-size: 20px;
+    margin-bottom: 50%;
+}
