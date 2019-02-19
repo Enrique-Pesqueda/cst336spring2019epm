@@ -1,6 +1,5 @@
 header{
     background-color: lightblue;
-    
 }
 .flex-container {
     display: flex;
@@ -13,13 +12,24 @@ header{
     margin: 10px;
     padding: 40px;
     font-size: 20px;
-    width:55%;
+    width:59%;
+    border-radius:10px;
+
 }
 
 #results{
     width:20%;
     position: sticky;
+    align-self: flex-start;
+    top:0;
     padding: 50px;
     font-size: 20px;
-    margin-bottom: 50%;
+    border-radius:10px;
+}
+#checker{
+    
+    background-color: lightBlue;
+    border-radius:10px;
+    width:200px;
+    height:100px;
 }
