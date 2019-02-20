@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <header>
+        <a href = "index.html"><img id = "banner" src = "img/dogsIcon.png"></a>
+        <nav>
+            <a id = "dogFoods" href = "https://www.pedigree.com/dog-foods/dry#">DOG FOODS</a>
+            <a id = "dogCare" href = "https://www.pedigree.com/dog-care/health#">DOG CARE</a>
+            <a id = "sOffers" href = "https://www.pedigree.com/special-offers#">SPECIAL OFFERS</a>
+        </nav>
+    </header>
+    <br/>
+    <br/>
+    <div class = "flex-container">
+        <div id = "forms-to-complete">
+            <div id = "minBanner">
+                <h1>Find Your Perfect Dog!</h1>
+            </div>
+            <h3>Every dog deserves more than a loving home - they deserve the right loving home. Find the best match for your family.</h3>
+            <br/>
+            <form>
+                <div class = "basicInfo">
+                    <label for = "name">Name:</label>
+                    <input type="text" name="name">
+                </div>
+            </form>
+            <br/>
+            <form>
+                <div class = "basicInfo">
+                    <label for = "email">Email:</label>
+                    <input type="text" id = "email"name="lastName">
+                </div>
+            </form>
+            <br/>
+            <form action="/action_page.php">
+                <label for = "weather">What sort of environment do you live in?</label>
+                <select>
+                <option value = "">Select an option</option>    
+                <option value= "snow">< 30 degrees</option>
+                <option value= "cold"> 30 - 50 degrees</option>
+                <option value= "neutral">50 - 70</option>
+                <option value= "warm">70 - 90</option>
+                <option value= "hot">90 - 120</option>
+                </select>
+            </form>
+            <br/>
+            <form>
+                <div class="question1">
+                    <label for="feedback">What type of home/living space do you have?</label>
+                    <div>
+                        <input type="radio" id="name1" name="nameChoice1" value="1">
+                        <label for="name1">It's bigger than a closet, so I call it an apartment</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="name2" name="nameChoice1" value="2">
+                        <label for="name2">"Cozy" House</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="name3" name="nameChoice1" value="3">
+                        <label for="name3">Large House</label>
+                    </div>
+                </div>
+            </form>
+            <br/>
+            <form>
+                <div class = "question2">
+                    <label for="feedback">How big is your yard?</label>
+                    <div>
+                        <input type="radio" id="name1" name="nameChoice2" value="1">
+                        <label for="name1">None but my NEXT house will have a yard</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="name2" name="nameChoice2" value="2">
+                        <label for="name2">Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="name3" name="nameChoice2" value="3">
+                        <label for="name3">Medium (mowing doesn't take all day)</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="name4" name="nameChoice2" value="4">
+                        <label for="name3">Large enough to help me forget I've got neighbors</label>
+                    </div>
+                </div>
+            </form>
+            <br/>
+            <form>
+                <label>What kind of dogs have you had in the past?</label><br/>
+                <input type="checkbox" id="option1" value="all"> Big Dogs, Little Dogs, All Kinds of Dogs<br/>
+                <input type="checkbox" id="option2" value="Big"> Big Dogs<br/> 
+                <input type="checkbox" id="option3" value="Tiny"> Tiny Dogs<br/> 
+                <input type="checkbox" id="option4" value="None"> Never Owned a Dog
+            </form>
+            <br/>
+        </div>
+        <div id = "results">
+        </div>
+    </div>
+    
+    <div class = "buttonChecker">
+        <button id ="checker" type="button">Submit</button>
+    </div>
+    
+    <br/>
+    <footer>
+        <img class = "paw" src = "img/dawgPaw.png"/>
+        <a id = "contact" href = "https://cst336spring2019epm.herokuapp.com/Labs/Quiz/index.html">Contact Us</a>
+        <a id = "faqs" href = "https://cst336spring2019epm.herokuapp.com/Labs/Quiz/index.html">FAQS</a>
+        <img class = "paw" src = "img/dawgPaw.png"/>
+    </footer>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    
+
+
+        
+        $("button#checker").on("click", function(e) {
+            //*********************************************************************************
+            //****************************  Radio Buttons  ************************************
+            //*********************************************************************************
+            var selectedRadio1 = $("input[name='nameChoice1']:checked");
+            var selectedNameValue1 = selectedRadio1.val();
+            
+            var selectedRadio2 = $("input[name='nameChoice2']:checked");
+            var selectedNameValue2 = selectedRadio2.val();
+            
+            //question 1
+            if (selectedNameValue1 == 1) {
+                $("#results").html("<div id = 'minBanner'><h2>Reccommended Dog</h2></div>" + 
+                "<br/>"+
+                "<img id = 'chihuahua'src = 'img/yorki.png'/>")
+                .css("margin","30px").css("background-color","white").css("width","20%").css("border-radius","30px");
+                
+            }
+            else if(selectedNameValue1 == 2) {
+                if(selectedNameValue2 == 1){
+                    $("#results").html("<div id = 'minBanner'><h2>Reccommended Dog</h2></div><br/><img id = 'chihuahua'src = 'img/yorki.png'/>")
+                    .css("margin","30px").css("background-color","white").css("width","20%").css("border-radius","30px");
+                }
+                else if(selectedNameValue2 == 2){
+                    $("#results").html("<div id = 'minBanner'><h2>Reccommended Dog</h2></div><br/><img id = 'corgi' src = 'img/corgi.png'/>")
+                    .css("margin","30px").css("background-color","white").css("width","20%").css("border-radius","30px");
+                    $("#corgi").css("padding-right","90px");
+                }
+                else if(selectedNameValue2 == 3 || selectedNameValue2 == 4){ 
+                    $("#results").html("<div id = 'minBanner'><h2>Reccommended Dog</h2></div><br/><img id = 'german' src = 'img/german.png'/>")
+                    .css("margin","30px").css("background-color","white").css("width","20%").css("border-radius","30px");
+                    $("#german").css("padding-right","90px");
+                }
+                
+            }
+            else if(selectedNameValue1 == 3){
+                if(selectedNameValue2 == 4 || selectedNameValue2 == 3){
+                    $("#results").html("<div id = 'minBanner'><h2>Reccommended Dog</h2></div><br/><img id = 'german' src = 'img/german.png'/>")
+                    .css("margin","30px").css("background-color","white").css("width","20%").css("border-radius","30px");
+                    $("#german").css("padding-right","90px");
+                }
+                else{
+                    $("#results").html("<div id = 'minBanner'><h2>Reccommended Dog</h2></div><br/><img id = 'corgi' src = 'img/corgi.png'/>")
+                    .css("margin","30px").css("background-color","white").css("width","20%").css("border-radius","30px");
+                    $("#corgi").css("padding-right","90px");
+                }
+            }
+            //*********************************************************************************
+            //****************************   Check Boxes   ************************************
+            //*********************************************************************************
+            var selectedBoxVal1 = $("#option1").val();
+            var selectedBoxVal2 = $("#option2").val();
+            var selectedBoxVal3 = $("#option3").val();
+            var selectedBoxVal4 = $("#option4").val();
+            
+            //*********************************************************************************
+            //****************************   Validate Email  **********************************
+            //*********************************************************************************
+            function validateEmail(sEmail) {
+                var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+                if (filter.test(sEmail)) {
+                    return true;
+                }
+                else{
+                    return false;
+                }
+
+            }
+
+            var sEmail = $('#email').val();
+            
+            if ($.trim(sEmail).length == 0) {
+                alert('Please enter valid email address');
+                e.preventDefault();
+            }
+            if (!validateEmail(sEmail)) {
+                alert('Invalid Email Address');
+                e.preventDefault();
+            }
+
+            //Disabling
+            $("input[type=radio]").attr('disabled', true);
+            document.getElementById("checker").disabled = true;
+
+        });
+    </script>
+</body>
+
+</html>

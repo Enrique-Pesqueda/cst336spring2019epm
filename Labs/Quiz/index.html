@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <header><br/>
+    <header>
         <h1>The Random Quiz</h1>
         <hr/>
     </header>
@@ -195,9 +195,9 @@
         <div id="results">
         </div>
     </div>
-    <div class = "wumbotron">
-        <a href
-    </div>
+    
+    
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         
@@ -318,7 +318,7 @@
                 
             
             if(Math.floor((totalCorrect/6)*100) > 90){
-                $("#results").html("Grade: "+ Math.floor((totalCorrect/6)*100) + "%" + "<br/>Excellent!")
+                $("#results").html("Grade: "+ Math.floor((totalCorrect/6)*100) + "%" + "<br/>Excellent")
                 .css("color", "darkBlue")
                 .css("font-size","30px")
                 .css("width","20%").css("font-size","35px").css("color","darkBlue");

@@ -1,0 +1,114 @@
+header{
+    display: inline-flex;
+    position:sticky;
+    top:0;
+    background-color: orange;
+    width:100%;
+}
+
+body{
+    background-color:orange;
+}
+h1{
+    padding-left: 20%;
+}
+.basicInfo{
+    display: inline;
+}
+#forms-to-complete{
+    margin: 30px;
+    /*flex-flow: row wrap;*/
+    /*padding-top: 4%;*/
+    /*padding-left: 4%;*/
+    /*padding-bottom: 20%;*/
+    background-color: white;
+    width:70%;
+    border-radius:30px;
+}
+nav{
+    padding-top: 9%;
+    font-size:30px;
+}
+#dogFoods:hover{
+    color:darkBlue;
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+#dogFoods{
+    padding-left: 20px;
+    color:white;
+    text-decoration: none;
+}
+#dogCare:hover{
+    color:darkBlue;
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+#dogCare{
+    padding-left: 30px;
+    color:white;
+    text-decoration: none;
+}
+#sOffers:hover{
+    color:darkBlue;
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+#sOffers{
+    padding-left: 30px;
+    color:white;
+    text-decoration: none;
+}
+#minBanner{
+    padding-left: 8%;
+    background-color: darkBlue;
+    color:white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-top: 20px;
+}
+#checker{
+    width:100px;
+    height:50px;
+    color:white;
+    background-color: darkBlue;
+    font-size:18px;
+    border-radius:10px;
+}
+#footer{
+    display: inline;
+    
+}
+footer{
+    font-size:20px;
+}
+#contact:hover{
+    color:darkBlue;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+#contact{
+    color:white;
+    text-decoration: none;
+    
+}
+#faqs:hover{
+    color:darkBlue;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+#faqs{
+    padding-left: 20px;
+    color:white;
+    text-decoration: none;
+}
+.paw{
+    width:20px;
+    height:20px;
+}
+.flex-container {
+  display: flex;
+}
+.buttonChecker{
+    padding-left: 10%;
+}
