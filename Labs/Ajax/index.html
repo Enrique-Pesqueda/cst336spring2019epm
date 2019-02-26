@@ -2,60 +2,87 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Earthquake Web API</title>
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  <title>AJAX: Sign Up Page</title>
+
 </head>
-<body id="dummybodyid">
-  <header>
-    <h1>Earthquake Info</h1>
-  </header>
-
-  <form method="post">
-		<div><label>Start Time:</label><input type="text" id="starttime" value="2017-10-01"></div>
-		<div><label>End Time:</label><input type="text" id="endtime" value="2017-11-30"></div>
-		<div><label>Latitude:</label><input type="text" id="latitude" value="36.6"></div>
-		<div><label>Longitude:</label><input type="text" id="longitude" value="-121.9"></div>
-		<div><label>Max Radius:</label><input type="text" id="maxradius" value="10"></div>
-		<div><label>Magnitude (0 to 7):</label><input type="range" id="minmag" min="0" value="3" max="7"></div>
-	</form>
-
-  <div>
-    Change any value to update results.
+  <body id="dummybodyid">
+  <h1> Sign Up Form </h1>
+  <div id = "thing">
+    <form>
+      <fieldset>
+        <legend>Sign Up</legend>
+        <div><label>First Name:</label><input type="text"></div>
+        <div><label>Last Name:</label><input type="text"></div>
+        <div><label>Email:</label><input type="text"></div>
+        <div><label>Phone Number:</label><input type="text"></div>
+        <div><label>Zip Code:</label><input id = "ZP" type="number"></div>
+        <div><label>City:</label></div>
+        <div><label>Latitude:</label></div>
+        <div><label>Longitude:</label></div>
+        <div><label>State:</label><input type="text"></div>
+        <div><label>Select a County:</label><select></select></div>
+        <div><label>Desired Username:</label><input type="text"></div>
+        <div><label>Password:</label><input type="password"></div>
+        <div><label>Type Password Again:</label><input type="password"></div>
+        <div><input type="button" id = "buttons" value="Sign up!"></div>
+      </fieldset>
+    </form>
   </div>
 
-  <div id="earthquakeResult"></div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  
+  //   $("#ZP").change(getCountyList);
+  // 	function getCounty() { 
 
-  <script>
-		$("input").change(getEarthquakes);
+  //     $.ajax({
+  //         type: "get",
+  //         url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+  //         dataType: "json",
+  //         data: {
+  //           // "starttime":$("#starttime").val()
+  //           "zip":"93955"
+  //         },
+  //         success: function(data,status) {
+  //           console.log("Success");
+  //           // $('#earthquakeResult').html(data["metadata"].title + "<br>");
+            
+  //         },
+  //         complete: function(data,status) { //optional, used for debugging purposes
+  //           console.log("Failure");
+  //           //console.log(status);
+  //         }
+  //     });
+  //   }
+  
+  $("#ZP").change(getZipCode);
+      function getZipCode() {
+        
+        console.log($("#ZP").val());
+          $.ajax({
+              type: "GET",
+              url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+              dataType: "json",
+              data: {
+                  "zip": $("#ZP").val()
+              },
+              success: function(data, status) {
+                  console.log("Success");
+                  console.log(data);
+              },
+              complete: function(data, status) {
+                  //console.log("Complete");
 
-  	function getEarthquakes() {        
-      $.ajax({
-          type: "get",
-          url: "https://earthquake.usgs.gov/fdsnws/event/1/query",
-          dataType: "json",
-          data: {
-            "format":"geojson",
-            "starttime":$("#starttime").val(),
-            "endtime"  :$("#endtime").val(),
-            "latitude" :$("#latitude").val(),
-            "longitude":$("#longitude").val(),
-            "maxradius":$("#maxradius").val(),
-            "minmag"   :$("#minmag").val()
-          },
-          success: function(data,status) {
-            $('#earthquakeResult').html(data["metadata"].title + "<br>");
-            for (var i=0; i < data['features'].length; i++ ) {
-              $('#earthquakeResult').append(data['features'][i]['properties']["mag"] + " - " + data['features'][i]['properties'].place  + "<br/>");
-            }
-          },
-          complete: function(data,status) { //optional, used for debugging purposes
-            //console.log(status);
-          }
-         });
-    }
+                  //console.log(data);
+                  console.log(status);
+              },
+             // timeout: 2000,
+              
+               
+          });
+      }
+ 
  	</script>
 </body>
 </html>
+
