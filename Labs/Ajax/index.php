@@ -46,7 +46,7 @@
   <script>
     var userNames = [];
     
-    $("#ZP").on("input",resultOfZip);
+    $("#ZP").on("input",getZP);
     $("#showState").on("input", getCounties);
     
     $("#buttonSubmittion").on("click", function(){
@@ -102,7 +102,7 @@
         $("#invalid").html("Username already exists!");
       }
     }
-    function resultOfZip(){
+    function getZP(){
         $.ajax({
           type: "GET",
           url:"http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
