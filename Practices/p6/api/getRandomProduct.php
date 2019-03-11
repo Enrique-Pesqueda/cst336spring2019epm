@@ -32,6 +32,8 @@
         $product["product"] = "beach umbrella";
         $product["price"] = 75;
         $product["qty"] = 1;
-        echo json_encode($products[rand(0,5)]);
+        array_push($products,$product);
+
+        echo json_encode($products[rand(0,4)]);
 
 ?>

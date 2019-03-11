@@ -121,7 +121,7 @@
                 type: "GET",
                 url: "api/getRandomProduct.php",
                 dataType: "json",
-                success: function(data) {
+                success: function(data,status) {
                     console.log("asf");
                     $("#product").innerHTML = data['product'];
                     $("#product").html(data['product']);
