@@ -151,7 +151,7 @@
         url: "processor.php",
         dataType: "json",
         data: {
-          "checker": "checkingPasswordUsername",
+          "checker": "username_password_check",
           "username": document.getElementById("enteredUserName").value,
           "passwords": [document.getElementById("userPassword").value, document.getElementById("userRePassword").value],
         },
