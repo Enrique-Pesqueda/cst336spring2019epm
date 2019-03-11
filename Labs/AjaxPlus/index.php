@@ -127,7 +127,7 @@
       <div id = "stateOut"><label>State:</label><input id = "showState" type="text" value =""></div>
       <div id = "countyOut"><label>Select a County:</label><select id = "counties"><option id='displayCounty' value=''></option></select></div>
       <div id = "validUser"><label>Desired Username:</label><input id= "userName"type="text"><div id="invalid"></div></div>
-      <div id = "passwordOut"><label>Password:</label><input id="userPassword" type="password"></div>
+      <div id = "passwordOut"><label>Password:</label><input id="userPassword" type="password"><div id = "checkPassword"></div></div>
       <div id= "validPasswordOut"><label>Type Password Again:</label><input id = "userPassword2" type="password"><div id="invalidPassword"></div></div>
       <div><input id = "check" type="button" value="Sign up!"><div id = "forSuccess"></div></div>
     </fieldset>
@@ -141,18 +141,18 @@
     $("#showState").on("input", getCounties);
     
     $("#check").on("click", function(){
-      $("#successful").html("");
-      $("#notValid").html("")
+      $("#forSuccess").html("");
+      $("#invalid").html("")
       $("#invalidPassword").html("")
-      // var userNameInfo = document.getElementById('enteredUserName');
+      // var userNameInfo = document.getElementById('userName');
       // textAlphanumeric(userNameInfo);
       $.ajax({
         type: "POST",
         url: "processor.php",
         dataType: "json",
         data: {
-          "checker": "username_password_check",
-          "username": document.getElementById("enteredUserName").value,
+          "checker": "checkingPasswordUsername",
+          "username": document.getElementById("userName").value,
           "passwords": [document.getElementById("userPassword").value, document.getElementById("userRePassword").value],
         },
         success: function(data) {
@@ -162,28 +162,28 @@
           if (data["message"] === "success") {
               //clear everything
               userNameDataBase.splice(1,0,inputtext.value);
-              document.getElementById("userfirstName").value = "";
-              document.getElementById("userLastName").value = "";
-              document.getElementById("userEmail").value = "";
-              document.getElementById("userPhoneNumber").value = "";
-              document.getElementById("inputZip").value = "";
-              document.getElementById("userLastName").value = "";
+              document.getElementById("firstName").value = "";
+              document.getElementById("lastName").value = "";
+              document.getElementById("email").value = "";
+              document.getElementById("phoneNumber").value = "";
+              document.getElementById("ZP").value = "";
+              document.getElementById("lastName").value = "";
               $("#lat").html("");
               $("#long").html("");
-              $("#successful").html("Approved!");
-              document.getElementById("displayState").value = "";
-              document.getElementById("displayState").value = "";
+              $("#forSuccess").html("Approved!");
+              document.getElementById("showState").value = "";
+              document.getElementById("showState").value = "";
               $('#counties option:not(:first)').remove();
               
-              document.getElementById("enteredUserName").value = "";
+              document.getElementById("userName").value = "";
               document.getElementById("userPassword").value = "";
-              document.getElementById("userRePassword").value = "";
+              document.getElementById("userPassword2").value = "";
           }
           else if (data["message"] === "Username already used") {
-              $("#notValid").html("Username already exists!");
+              $("#inValid").html("Username already exists!");
           }
           else if (data["message"] === "username in password") {
-              $("#passwordStatus").html("Username should not be in password").css("color", "red");
+              $("#checkPassword").html("Username should not be in password").css("color", "red");
           }
         },
         error: function (error) {
@@ -204,8 +204,10 @@
             },
             success: function(data) {
                 //set passwords to recommended
-                $("#passwordInput").val(data["randomPassword"]);
-                $("#passwordInputAgain").val(data["randomPassword"]);
+                // $("#passwordInput").val(data["randomPassword"]);
+                // $("#passwordInputAgain").val(data["randomPassword"]);
+                $("userPassword").val(data["randomPassword"]);
+                $("userPassword2").val(data["randomPassword"]);
             },
             error: function (error) {
                 console.log(error);
