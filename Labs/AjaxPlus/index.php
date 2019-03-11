@@ -193,7 +193,7 @@
       });
       
     });
-    $("#passwordInput").focusin(function autoGeneratePassword() {
+    $("#userPassword").focusin(function autoGeneratePassword() {
         //call ajax
         $.ajax({
             type: "POST",
