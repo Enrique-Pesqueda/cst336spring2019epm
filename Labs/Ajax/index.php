@@ -2,7 +2,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>AJAX: Sign Up Page</title>
-  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <!--<link href="css/styles.css" rel="stylesheet" type="text/css" />-->
 </head>
 <style>
   #dummybodyid{
@@ -139,7 +139,7 @@
     $("#ZP").on("input",getZP);
     $("#showState").on("input", getCounties);
     
-    $("#check").on("click", function(){
+    $("#buttoncheck").on("click", function(){
       $("#invalid").html("")
       $("#invalidPassword").html("")
       var userNameInfo = document.getElementById('userName');
