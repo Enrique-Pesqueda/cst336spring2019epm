@@ -1,7 +1,7 @@
 <?php
 
     include '../dbConnection.php';
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection();
     
     $namedParameters = array();
     $sql = "SELECT * FROM om_product WHERE 1";
