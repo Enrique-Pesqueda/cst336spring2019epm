@@ -5,9 +5,14 @@
         $username = "b127922bd30d7f";
         $password = '46ddc3fa';
         
-        //when connecting from Heroku
         // mysql://b127922bd30d7f:46ddc3fa@us-cdbr-iron-east-03.cleardb.net/heroku_4601ed3b57afd10?reconnect=true
-        
+        /**
+         * username = b127922bd30d7f
+         * password = 46ddc3fa
+         * host = us-cdbr-iron-east-03.cleardb.net
+         * data base name = heroku_4601ed3b57afd10
+         * 
+         */
         
         if(strpos($_SERVER['HTTP_HOST'],'herokuapp')!==false){
             $url = parase_url(getenv("CLEARDB_DATABASE_URL"));
