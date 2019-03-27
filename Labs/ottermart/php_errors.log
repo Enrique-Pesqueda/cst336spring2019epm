@@ -73,3 +73,248 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getCategories.php(11): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getCategories.php on line 11
+[26-Mar-2019 19:43:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:43:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:43:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:43:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:43:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:43:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:43:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:43:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:43:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:43:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:58:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:58:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:58:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:58:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:58:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:58:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:58:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:58:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 19:58:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:01:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:02:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:05:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:05:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2 AND productName LIKE '%apple%'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38
+[26-Mar-2019 20:07:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Happy% AND catId = 2' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/ottermart/api/getSearchResults.php on line 38

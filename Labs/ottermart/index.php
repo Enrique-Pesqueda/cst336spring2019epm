@@ -50,7 +50,7 @@
                         $("#purchaseHistoryModal").modal("show");
                         $.ajax({
                            type:"GET" ,
-                           url: "api/getPurchaseHistory",
+                           url: "api/getPurchaseHistory.php",
                            dataType: "json",
                            data:{
                                "productId": $(this).attr("id")
