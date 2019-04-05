@@ -57,7 +57,7 @@
         <tr>
             <td>
                 <select name = "category">
-                            <option value = "">Select One</option>
+                    <option value = "">Select One</option>
                 </select>
             </td>
             <td></td>
@@ -113,6 +113,7 @@
             success: function(data, status) {
                 var randomValue = Math.floor(Math.random(0,data.length) * data.length);
                 $("#product").html(data[randomValue]["productName"]);
+                
                 priceOfProduct = parseFloat(data[randomValue]["productPrice"]);
                 $("#productPrice").html(data[randomValue]["productPrice"]);
                 
@@ -122,26 +123,28 @@
                 });
             }
         });// end of getProduct
-        $.ajax({
-            type: "GET",
-            url: "api/getPromo.php",
-            dataType: "json",
-            success: function(data, status) {
-                var randomValue = Math.floor(Math.random(0,data.length) * data.length);
-                $("#promoCode").val(data[randomValue]["promoCode"]);
-                $("#expirationDate").html("This will expire on " + data[randomValue]["expirationDate"]).css("color","red");
-                $("#discount").html(data[randomValue]["discount"] + "%");
+        // $.ajax({
+        //     type: "GET",
+        //     url: "api/getPromo.php",
+        //     dataType: "json",
+        //     success: function(data, status) {
+        //         var randomValue = Math.floor(Math.random(0,data.length) * data.length);
+        //         $("#promoCode").val(data[randomValue]["promoCode"]);
+        //         $("#expirationDate").html("This will expire on " + data[randomValue]["expirationDate"]).css("color","red");
+        //         $("#discount").html(data[randomValue]["discount"] + "%");
                 
                 
-                //calculates total with discount
-                // console.log("calculated: " + parseFloat($("#productPrice").html()) * (parseInt(data[randomValue]["discount"])/100));
-                // console.log("product Price: " + priceOfProduct);
-                // console.log("product discount: " + (parseInt(data[randomValue]["discount"])/100));
+        //         //calculates total with discount
+        //         console.log("calculated: " + parseFloat($("#productPrice").html()) * (parseInt(data[randomValue]["discount"])/100));
+        //         console.log("product Price: " + priceOfProduct);
+        //         console.log("product discount: " + (parseInt(data[randomValue]["discount"])/100));
+        //         $("#discountTotal").html(priceOfProduct * (parseInt(data[randomValue]["discount"])/100));
                 
-                $("#discountTotal").html(priceOfProduct * (parseInt(data[randomValue]["discount"])/100));
+        //         $("#subtotal").html("$" + parseInt($("#discountTotal").html()));
                 
-            }
-        });// end of getDiscount
+                
+        //     }
+        // });// end of getDiscount
         
     });
     
@@ -149,6 +152,36 @@
     $("#quantity").change(function(){
         $("#totalPrice").html("$" + parseFloat($("#productPrice").html()) * $(this).val());
     });
+    $("#promoCode").change(function(){
+       $.ajax({
+           type: "GET",
+           url: "api/getPromo.php",
+           dataType: "json",
+           data: {
+               "promoCode": $("[name=promoCode]").val()
+           },
+            success: function(data,success){
+                console.log(data);
+                data.forEach(function(key){
+                        if(key["promoCode"] === $("#promoCode").val()){
+                            
+                            console.log("FOUND");
+                            console.log(key["expirationDate"]);
+                            $("#expirationDate").html("This will expire on " + key["expirationDate"]);
+                            return false;
+                        }
+                        else{
+                            $("#expirationDate").html("This is not a promo code").css("color","red");
+                        }
+                             
+                });
+                    
+               
+           }
+                        
+       });  
+    });
+    
     
     
 

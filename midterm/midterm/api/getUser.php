@@ -2,12 +2,7 @@
     include '../dbConnection.php';
     $conn = getDatabaseConnection();
     
-    $sql = "SELECT promoCode, discount, expirationDate FROM mp_codes";
-    
-    if(!empty($_GET['promoCode'])){
-        $sql .= " AND promoCode LIKE :promoCode";
-        $namedParameters[":promoCode"] ="%" . $_GET['promoCode'] . "%";
-    }
+    $sql = "SELECT * FROM user";
     
     $stmt = $conn->prepare($sql);
     $stmt->execute($namedParameters);

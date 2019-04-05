@@ -1,0 +1,36 @@
+[27-Mar-2019 23:53:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php(8): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php on line 8
+[27-Mar-2019 23:54:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php(8): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php on line 8
+[27-Mar-2019 23:54:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php(8): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php on line 8
+[27-Mar-2019 23:54:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php(8): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php on line 8
+[27-Mar-2019 23:54:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php(8): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php on line 8
+[27-Mar-2019 23:55:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php(8): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php on line 8
+[27-Mar-2019 23:56:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''match'' at line 1' in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php(8): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php on line 8
+[27-Mar-2019 23:57:22 UTC] PHP Parse error:  syntax error, unexpected 'match' (T_STRING) in /home/ubuntu/workspace/CST-336-Spring2019/midterm/midterm/api/getMatch.php on line 5
