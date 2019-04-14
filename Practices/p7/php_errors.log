@@ -1,0 +1,152 @@
+[08-Apr-2019 19:04:03 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:04:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:04:03 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:04:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:04:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 6
+[08-Apr-2019 19:04:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:04:07 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 4
+[08-Apr-2019 19:04:07 UTC] PHP Stack trace:
+[08-Apr-2019 19:04:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:0
+[08-Apr-2019 19:04:07 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 4
+[08-Apr-2019 19:04:07 UTC] PHP Stack trace:
+[08-Apr-2019 19:04:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:0
+[08-Apr-2019 19:04:40 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:04:40 UTC] PHP Stack trace:
+[08-Apr-2019 19:04:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:04:40 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:04:40 UTC] PHP Stack trace:
+[08-Apr-2019 19:04:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:04:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 6
+[08-Apr-2019 19:04:40 UTC] PHP Stack trace:
+[08-Apr-2019 19:04:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:07:25 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:07:25 UTC] PHP Stack trace:
+[08-Apr-2019 19:07:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:07:25 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:07:25 UTC] PHP Stack trace:
+[08-Apr-2019 19:07:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:07:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 6
+[08-Apr-2019 19:07:25 UTC] PHP Stack trace:
+[08-Apr-2019 19:07:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:09:20 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:09:20 UTC] PHP Stack trace:
+[08-Apr-2019 19:09:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:09:20 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:09:20 UTC] PHP Stack trace:
+[08-Apr-2019 19:09:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:09:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 6
+[08-Apr-2019 19:09:20 UTC] PHP Stack trace:
+[08-Apr-2019 19:09:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:09:26 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:09:26 UTC] PHP Stack trace:
+[08-Apr-2019 19:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:09:26 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:09:26 UTC] PHP Stack trace:
+[08-Apr-2019 19:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:09:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 6
+[08-Apr-2019 19:09:26 UTC] PHP Stack trace:
+[08-Apr-2019 19:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:09:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'hangman'' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'enriquemosqueda', '')
+#1 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php(6): getDatabaseConnection('hangman')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/dbConnection.php on line 21
+[08-Apr-2019 19:11:23 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:11:23 UTC] PHP Stack trace:
+[08-Apr-2019 19:11:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:11:23 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:11:23 UTC] PHP Stack trace:
+[08-Apr-2019 19:11:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:11:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 6
+[08-Apr-2019 19:11:23 UTC] PHP Stack trace:
+[08-Apr-2019 19:11:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:12:01 UTC] PHP Warning:  include(..dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:12:01 UTC] PHP Stack trace:
+[08-Apr-2019 19:12:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:12:01 UTC] PHP Warning:  include(): Failed opening '..dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:12:01 UTC] PHP Stack trace:
+[08-Apr-2019 19:12:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:12:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 6
+[08-Apr-2019 19:12:01 UTC] PHP Stack trace:
+[08-Apr-2019 19:12:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:12:03 UTC] PHP Warning:  include(..dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:12:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:12:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:12:03 UTC] PHP Warning:  include(): Failed opening '..dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 5
+[08-Apr-2019 19:12:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:12:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:12:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php on line 6
+[08-Apr-2019 19:12:03 UTC] PHP Stack trace:
+[08-Apr-2019 19:12:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/get_word_api.php:0
+[08-Apr-2019 19:13:47 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 4
+[08-Apr-2019 19:13:47 UTC] PHP Stack trace:
+[08-Apr-2019 19:13:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:0
+[08-Apr-2019 19:13:47 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 4
+[08-Apr-2019 19:13:47 UTC] PHP Stack trace:
+[08-Apr-2019 19:13:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:0
+[08-Apr-2019 19:25:50 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 4
+[08-Apr-2019 19:25:50 UTC] PHP Stack trace:
+[08-Apr-2019 19:25:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:0
+[08-Apr-2019 19:25:50 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 4
+[08-Apr-2019 19:25:50 UTC] PHP Stack trace:
+[08-Apr-2019 19:25:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:0
+[08-Apr-2019 19:41:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 15
+[08-Apr-2019 19:59:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 15
+[08-Apr-2019 20:15:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 15
+[08-Apr-2019 20:15:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 15
+[08-Apr-2019 20:16:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 19
+[08-Apr-2019 20:17:01 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 34
+[08-Apr-2019 20:17:01 UTC] PHP Stack trace:
+[08-Apr-2019 20:17:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:0
+[08-Apr-2019 20:17:01 UTC] PHP   2. array_push() /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:34
+[08-Apr-2019 20:17:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(37): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 37
+[08-Apr-2019 20:18:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 20
+[08-Apr-2019 20:22:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 17
+[08-Apr-2019 20:23:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 17
+[08-Apr-2019 20:24:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 13
+[08-Apr-2019 20:25:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 13
+[08-Apr-2019 20:25:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Practices/p7/api/check_word.php on line 13
