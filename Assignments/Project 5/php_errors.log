@@ -1,0 +1,13 @@
+[29-Apr-2019 02:51:31 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 17
+[29-Apr-2019 02:51:31 UTC] PHP Stack trace:
+[29-Apr-2019 02:51:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:0
+[29-Apr-2019 02:51:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:17
+[29-Apr-2019 03:22:10 UTC] PHP Fatal error:  Call to undefined function data() in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 18
+[29-Apr-2019 03:22:10 UTC] PHP Stack trace:
+[29-Apr-2019 03:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:0
+[29-Apr-2019 04:48:10 UTC] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 18
+[29-Apr-2019 04:48:10 UTC] PHP Stack trace:
+[29-Apr-2019 04:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:0
+[29-Apr-2019 04:48:10 UTC] PHP   2. date() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:18
+[29-Apr-2019 05:07:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 47
+[29-Apr-2019 05:34:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 55

@@ -33,3 +33,326 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/dashboard/login.php(34): PDO->__construct('mysql:host=127....', 'jahenderson', '')
 #1 {main}
   thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/dashboard/login.php on line 34
+[23-Apr-2019 18:06:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'b127922bd30d7f'@'18.207.176.253' for table 'lab_eight'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addToDB.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addToDB.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addToDB.php on line 12
+[23-Apr-2019 19:18:56 UTC] PHP Warning:  include(DBConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:18:56 UTC] PHP Stack trace:
+[23-Apr-2019 19:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:18:56 UTC] PHP Warning:  include(): Failed opening 'DBConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:18:56 UTC] PHP Stack trace:
+[23-Apr-2019 19:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:18:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 5
+[23-Apr-2019 19:18:56 UTC] PHP Stack trace:
+[23-Apr-2019 19:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:31 UTC] PHP Warning:  include(DBConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:19:31 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:31 UTC] PHP Warning:  include(): Failed opening 'DBConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:19:31 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:31 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 5
+[23-Apr-2019 19:19:31 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:32 UTC] PHP Warning:  include(DBConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:19:32 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:32 UTC] PHP Warning:  include(): Failed opening 'DBConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:19:32 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 5
+[23-Apr-2019 19:19:32 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:33 UTC] PHP Warning:  include(DBConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:19:33 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:33 UTC] PHP Warning:  include(): Failed opening 'DBConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:19:33 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 5
+[23-Apr-2019 19:19:33 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:33 UTC] PHP Warning:  include(DBConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:19:33 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:33 UTC] PHP Warning:  include(): Failed opening 'DBConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 4
+[23-Apr-2019 19:19:33 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:19:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php on line 5
+[23-Apr-2019 19:19:33 UTC] PHP Stack trace:
+[23-Apr-2019 19:19:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php:0
+[23-Apr-2019 19:20:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'fig_details'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php(10): PDO->__construct('mysql:host=loca...', 'enriquemosqueda', '')
+#1 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php(5): getDataBaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php on line 10
+[23-Apr-2019 19:22:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'fig_details'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php(10): PDO->__construct('mysql:host=loca...', 'enriquemosqueda', '')
+#1 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php(5): getDataBaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php on line 10
+[23-Apr-2019 19:23:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'fig_details'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php(10): PDO->__construct('mysql:host=loca...', 'enriquemosqueda', '')
+#1 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php(5): getDataBaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php on line 10
+[23-Apr-2019 19:30:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'fig_details'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php(10): PDO->__construct('mysql:host=loca...', 'enriquemosqueda', '')
+#1 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemove.php(5): getDataBaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php on line 10
+[23-Apr-2019 19:49:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'fig_details'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php(10): PDO->__construct('mysql:host=loca...', 'enriquemosqueda', '')
+#1 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(5): getDataBaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/dbConnection.php on line 10
+[24-Apr-2019 00:32:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 00:34:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 00:37:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 00:38:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:37:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:37:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:37:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:38:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:38:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:39:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:39:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:39:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:39:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:39:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:39:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:40:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:40:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:40:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:40:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 01:42:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 26
+[24-Apr-2019 01:42:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 26
+[24-Apr-2019 01:42:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 26
+[24-Apr-2019 01:42:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 26
+[24-Apr-2019 01:43:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 26
+[24-Apr-2019 02:17:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'url' in 'field list'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 27
+[24-Apr-2019 02:17:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'url' in 'field list'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 27
+[24-Apr-2019 02:18:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'url' in 'where clause'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 27
+[24-Apr-2019 02:18:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'url' in 'field list'' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 27
+[24-Apr-2019 02:24:09 UTC] PHP Fatal error:  Call to undefined function var_dum() in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 15
+[24-Apr-2019 02:24:09 UTC] PHP Stack trace:
+[24-Apr-2019 02:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:0
+[24-Apr-2019 02:29:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 02:29:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 02:29:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 02:30:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 02:32:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 02:32:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 17:39:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(29): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 29
+[24-Apr-2019 21:24:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 21:27:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 32
+[24-Apr-2019 21:27:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 32
+[24-Apr-2019 21:30:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 21:33:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 21:35:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 28
+[24-Apr-2019 21:35:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(26): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 26
+[24-Apr-2019 21:35:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 21:35:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 21:40:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 21:42:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 22:14:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'imgkey' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
+[24-Apr-2019 22:21:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'imgkey' cannot be null' in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Labs/imageGalllery/addRemoveShow.php on line 25
