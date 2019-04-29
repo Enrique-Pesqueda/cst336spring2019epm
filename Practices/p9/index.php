@@ -24,21 +24,21 @@
                 }
 
                 $.ajax({
-                    type: "get",
+                    type: "post",
                     url: "api/checkAnswer.php",
                     dataType: "json",
                     data: { 
 
                          
-                        },
+                    },
                     success: function(data,status) {
                       
                        
-                      },
-                      complete: function(data,status) { //optional, used for debugging purposes
+                    },
+                    complete: function(data,status) { //optional, used for debugging purposes
                           //alert(status);
-                      }
-                  });//AJAX  
+                    }
+                });//AJAX  
                
         });
       
