@@ -1,0 +1,23 @@
+[30-Apr-2019 03:44:59 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 103
+[30-Apr-2019 03:45:50 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 103
+[30-Apr-2019 03:46:11 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 103
+[30-Apr-2019 05:30:11 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 103
+[30-Apr-2019 05:30:45 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 103
+[30-Apr-2019 05:30:49 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 103
+[30-Apr-2019 05:31:02 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 103
+[30-Apr-2019 06:04:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 111
+[30-Apr-2019 06:04:59 UTC] PHP Stack trace:
+[30-Apr-2019 06:04:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php:0
+[30-Apr-2019 06:04:59 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php:111
+[30-Apr-2019 06:07:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 106
+[30-Apr-2019 06:07:24 UTC] PHP Stack trace:
+[30-Apr-2019 06:07:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php:0
+[30-Apr-2019 06:07:24 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php:106
+[30-Apr-2019 06:07:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 109
+[30-Apr-2019 06:07:24 UTC] PHP Stack trace:
+[30-Apr-2019 06:07:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php:0
+[30-Apr-2019 06:07:24 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php:109
+[30-Apr-2019 06:39:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php on line 108
+[30-Apr-2019 06:39:49 UTC] PHP Stack trace:
+[30-Apr-2019 06:39:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php:0
+[30-Apr-2019 06:39:49 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/index.php:108

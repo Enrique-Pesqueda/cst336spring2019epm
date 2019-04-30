@@ -5,19 +5,13 @@
     
     if(isset($_POST['submit'])){
         $file = $_FILES['file'];
-        // print_r($file);
-        
+
         $fileName = $file['name'];
         $fileTmpName = $file['tmp_name'];
         $fileSize = $file['size'];
         $fileError = $file['error'];
         $fileType = $file['type'];
         
-        $email = $_POST['email'];
-        $caption = $_POST['caption'];
-        $timeStamp = date("F j Y");
-        
-        echo $email;
         
         $fileExt = explode('.', $fileName);
         $realExt = strtolower(end($fileExt));
@@ -27,28 +21,29 @@
         if(in_array($realExt, $allowed)){
             if($fileError === 0){
                 if($fileSize < 1000000){
-                    //To store in local folder and prevent lost data
-                    // $fileNameNew = uniqid('',true) . '.'. $realExt;
                     
-                    $img = file_get_contents($fileTmpName);
-                    $stmt = $conn->prepare("insert into data values('?','?','?','?')");
-                    $stmt->bindParam(1,$email);
-                    $stmt->bindParam(2,$caption);
-                    $stmt->bindParam(3,$img);
-                    $stmt->bindParam(4,$timeStamp);
+                    
+                    $img = addslashes(file_get_contents($fileTmpName));
+                    $caption = $_POST['caption'];
+                    $email = $_POST['email'];
+                    $timestamp = date("F j Y");
+                    
+                    $sql = "INSERT INTO data_4 (email, caption, media, timestamp) VALUES('$email', '$caption', '$img', '$timestamp')";
+                    
+                    $stmt = $conn->prepare($sql);
                     $stmt->execute();
                     header("Location: ../index.php?uploadsuccess");
                 }
                 else{
-                    echo 'Your file is too big!';
+                    header("Location: ../index.php?uploadFAIL");
                 }
             }
             else{
-                echo 'There was an error uploading your file!';
+                header("Location: ../index.php?uploadFAIL");
             }       
         }
         else{
-            echo 'You cannot upload files of this type!';
+            header("Location: ../index.php?uploadFAIL");
         }
         
     }

@@ -11,3 +11,31 @@
 [29-Apr-2019 04:48:10 UTC] PHP   2. date() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:18
 [29-Apr-2019 05:07:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 47
 [29-Apr-2019 05:34:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 55
+[30-Apr-2019 01:41:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 39
+[30-Apr-2019 01:48:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 41
+[30-Apr-2019 01:51:39 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 36
+[30-Apr-2019 01:52:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php(42): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 42
+[30-Apr-2019 02:24:01 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 38
+[30-Apr-2019 02:24:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 40
+[30-Apr-2019 02:24:33 UTC] PHP Stack trace:
+[30-Apr-2019 02:24:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:0
+[30-Apr-2019 02:45:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 44
+[30-Apr-2019 02:45:08 UTC] PHP Stack trace:
+[30-Apr-2019 02:45:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:0
+[30-Apr-2019 02:45:08 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:44
+[30-Apr-2019 02:47:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php on line 44
+[30-Apr-2019 02:47:33 UTC] PHP Stack trace:
+[30-Apr-2019 02:47:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:0
+[30-Apr-2019 02:47:33 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CST-336-Spring2019/Assignments/Project 5/api/upload.php:44
