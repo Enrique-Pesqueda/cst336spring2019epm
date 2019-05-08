@@ -58,8 +58,6 @@
 	            <div class="player-specifics">
 		        <!--<div id="profile-pic"> <img src="#" alt=" "> </div>-->
 		        <div id="profile-name"> playerName </div>
-		        <button id="follow-button" name="follow" class="btn btn-success">+</button>
-		        <button id="unfollow-button" name="unfollow" class="btn btn-success">-</button>
 		        <button id="refresh-button" name="refresh"class="btn btn-success"><i class="fas fa-sync"></i></button>
 		        </div>
 		        <div id="wins"></div>
