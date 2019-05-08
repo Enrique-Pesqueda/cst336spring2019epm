@@ -73,7 +73,7 @@ $(function() {
             type: "GET",
             dataType:"json",
             data:{
-                "id":"108544729482107417556"
+                "id":localStorage.userId
             },
             success:function(data,status){
                 for(var i = 0; i<data.length; i++){
@@ -122,7 +122,7 @@ $(function() {
             type: "GET",
             dataType:"json",
             data:{
-                "id":"108544729482107417556"
+                "id":localStorage.userId
             },
             success:function(data,status){
                 for(var i = 0; i<data.length; i++){
