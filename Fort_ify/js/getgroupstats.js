@@ -20,7 +20,7 @@ $(function() {
             type: "GET",
             dataType:"json",
             data:{
-                "id":"108544729482107417556"
+                "id": localStorage.userId
             },
             success:function(data,status){
                 console.log(data);
