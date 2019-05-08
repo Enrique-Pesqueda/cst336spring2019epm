@@ -195,6 +195,7 @@ $("#go").on("click",function() {
         e.preventDefault();
     }
     
+    
 });
 $("#guess").on("click",function() {
     var form = document.getElementById("myOnlyForm");
@@ -206,11 +207,15 @@ $("#guess").on("click",function() {
     modal.style.display = "none";
 });
 
-function myFunction(imgs) {
+function myFunction(imgs,email,caption,timestamp) {
   var expandImg = document.getElementById("expandedImg");
   var imgText = document.getElementById("imgtext");
   expandImg.src = imgs.src;
   expandImg.parentElement.style.display = "block";
+  console.log(email);
+  console.log(caption);
+  console.log(timestamp);
+  
 }
 </script>
 

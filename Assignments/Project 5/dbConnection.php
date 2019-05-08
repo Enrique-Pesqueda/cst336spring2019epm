@@ -28,7 +28,6 @@
          * password = 46ddc3fa
          * host = us-cdbr-iron-east-03.cleardb.net
          * data base name = heroku_4601ed3b57afd10
-         * 
          */
         
         if(strpos($_SERVER['HTTP_HOST'],'herokuapp')!==false){
