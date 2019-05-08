@@ -32,7 +32,7 @@
                 <nav>
                     <a href id = "rankingsTab"src = "index.php">Rankings</a>
                     <a href id = "newsTab" src = "index.php">News</a>
-                    <a href id = "streamingTab" src = "index.php">Streaming</a>
+                    <a href id = "streamingTab" styles = "padding-right:15px;"src = "index.php">Streaming</a>
                 </nav>
                 <div class="g-signin2" data-onsuccess="onSignIn"></div>
             </form>
