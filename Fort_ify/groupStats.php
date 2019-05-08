@@ -46,7 +46,7 @@
 			<table id = "myStatsTable">
 				<tr>
 					<br><br><br><br>
-					<b id= "gamertag">Fduenez</b>
+					<b id= "gamertag">WickyTicky</b>
 				</tr>
 				<tr>
 					<td id="mystatimgtd"><img src="img/player3.png" style="width:400px; height:370px;"/><td>
