@@ -25,7 +25,7 @@
       <div id = "logo">
           <h3 style = "color:white;">Invitation Link</h3>
       </div>
-      <input type="text" placeholder="Enter something fawg" name="search" id = "searchQ">
+      <input type="text" placeholder="Enter something dawg" name="search" id = "searchQ">
       <button type="button" id ="searchButton"><i class="fas fa-copy"></i></button>
       
       <a href="login.php" onclick="signOut()">Sign Out</a>
