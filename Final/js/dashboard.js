@@ -4,15 +4,7 @@ var modal2;
 $(function() {
     
     showTimeSlots();
-    
-    
-    
-    
-    $("#addDates").on("click",function(){
-        modal = document.getElementById('myModal');
-        span = document.getElementsByClassName("close")[0];
-        modal.style.display = "block";
-        $.ajax({
+    $.ajax({
         url: "API/addUser.php",
         type: "POST",
         data: {
@@ -27,6 +19,13 @@ $(function() {
             console.log(data)
         }
     });
+    
+    
+    
+    $("#addDates").on("click",function(){
+        modal = document.getElementById('myModal');
+        span = document.getElementsByClassName("close")[0];
+        modal.style.display = "block";
         
     });
     $(".startPicker").timepicker();
