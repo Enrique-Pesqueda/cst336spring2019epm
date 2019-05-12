@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+    margin-left: -7px;
+	margin-right: -7px;
+	margin-top: -7px;
+}
+#space{
+    padding-top: 30%;
+    padding-bottom: 30px;
+}
+
+
+/*     INVITATION LINK      */
+.navigationBar{
+		display:flex;
+		
+}
+
+form.navigationBar input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 30%;
+	height:10%;
+	background: #f1f1f1;
+}
+
+form.navigationBar button {
+	float: left;
+	width: 4%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+	height:10%;
+}
+
+
+header{
+		padding-top:4%;
+		padding-bottom: 4%;
+		position:sticky;
+		top:0;
+		background-image: linear-gradient(to top, black, white);
+		width:100%;
+		
+		
+}
+nav{
+		padding-left: 10%;
+		font-size:20px;
+				
+}
+
+#logo{
+	padding-right:4%;
+	padding-left:26%
+}
+
+
+/***************************/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  height:47%;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cancelModal,.okModal{
+  cursor: pointer; 
+  font-size: 17px;
+  border-radius: 30px;
+  color:blue;
+}
+/***************************/
+/* TABLES */
+/***************************/
+
+#dateSection{
+    background-color:  #2196F3;
+    width:75%;
+    border-radius: 10px;
+}
+
+#dateTable{
+    width: 80%;
+    
+}
+
+table, th, td {
+  font-size: 20px;
+  color:white;
+  /*border: 1px solid black;*/
+
+}
+th{
+  border-bottom: solid 1px;
+}
+#addDates{
+  cursor: pointer; 
+  font-size: 17px;
+  border-radius: 30px;
+}
+
+/*CONFIRMATION MODAL*/
+.cModal {
+  display: none; /* Hidden by default 
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.cModal-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  font-size: 30px;
+  border-radius: 20px;
+}
+#okConfirm,.cancelConfirm{
+  cursor: pointer; 
+  font-size: 17px;
+  border-radius: 30px;
+  color:blue; 
+}
