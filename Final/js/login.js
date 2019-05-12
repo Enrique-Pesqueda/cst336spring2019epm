@@ -1,5 +1,5 @@
 $(function() {
-
+    
      
 });
 function onSignIn(googleUser) {
@@ -9,7 +9,9 @@ function onSignIn(googleUser) {
     console.log('Image URL: ' + profile.getImageUrl());
     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
     var userId = profile.getId();
+    var userName = profile.getName();
     localStorage.setItem("userId",userId);
+    localStorage.setItem("userName",userName);
     window.location.assign("index.php");
 }
 function signOut() {

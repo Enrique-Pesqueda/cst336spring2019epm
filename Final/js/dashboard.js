@@ -4,6 +4,22 @@ var modal2;
 $(function() {
     
     showTimeSlots();
+    $.ajax({
+        url: "API/addUser.php",
+        type: "POST",
+        data: {
+            "userName": localStorage.userName,
+            "userId" : localStorage.userId
+        },
+        dataType: "json",
+        success: function(data, status) {
+            console.log("success");
+        },
+        complete: function(data, status) {
+            console.log(data)
+        }
+    });
+    
     
     
     $("#addDates").on("click",function(){
